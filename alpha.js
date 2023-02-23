@@ -6,8 +6,7 @@
 # Edit tampilan menu di folder language file Indonesia.js
 */
 require('./settings')
-
-//require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
 const {
    default: alphaConnect,

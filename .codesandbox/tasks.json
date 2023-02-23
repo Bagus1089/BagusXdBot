@@ -1,0 +1,30 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn pm2 start zeeone.js && yarn pm2 logs",
+      "runAtStart": true
+    },
+    "pm2": {
+      "name": "delete pm2",
+      "command": "yarn pm2 delete all"
+    },
+    "npx pm25 start zeeone.js && npx pm2 logs": {
+      "name": "npx pm25 start zeeone.js && npx pm2 logs",
+      "command": "npx pm25 start zeeone.js && npx pm2 logs"
+    },
+    "yarn pm2 start zeeone.js && yarn pm2 logs": {
+      "name": "yarn pm2 start zeeone.js && yarn pm2 logs",
+      "command": "yarn pm2 start zeeone.js && yarn pm2 logs"
+    }
+  }
+}
