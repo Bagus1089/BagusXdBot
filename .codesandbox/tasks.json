@@ -11,7 +11,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "yarn pm2 start zeeone.js && yarn pm2 logs",
+      "command": "yarn pm2 start zeeone.js && yarn pm2 save && yarn pm2 logs",
       "runAtStart": true
     },
     "pm2": {
