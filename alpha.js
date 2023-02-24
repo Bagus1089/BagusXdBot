@@ -6,7 +6,7 @@
 # Edit tampilan menu di folder language file Indonesia.js
 */
 require('./settings')
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+require('./server')
 
 const {
    default: alphaConnect,
@@ -96,15 +96,6 @@ const {
    toBuffer,
    toDataURL
 } = require('qrcode')
-const express = require('express')
-let app = express()
-const {
-   createServer
-} = require('http')
-let server = createServer(app)
-let _qr = 'invalid'
-let PORT = 3000 || 8000 || 8080
-const path = require('path')
 /*var low
 try {
  low = require('lowdb')
