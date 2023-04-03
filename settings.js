@@ -13,7 +13,7 @@ global.APIs = {
 // beli apikey premium pc wa: 0887435047326
 // beli apikey premium pc wa: 0887435047326
 global.APIKeys = {
-  "https://api.zeeoneofc.my.id": "yRsnqX84", // 👉 login https://api.zeeoneofc.my.id to get apikey
+  "https://api.zeeoneofc.my.id": "L6mLIgNvBK6NnRP", // 👉 login https://api.zeeoneofc.my.id to get apikey
 };
 global.sewabotnya = ``;
 // setting
